@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+*,
+body,
+html {
+  font-family: "Ubuntu", sans-serif;
+}
+#title {
+  background-color: #ff4c68;
+}
+
+.container {
+  padding: 3% 15% 7%;
+}
+.row > .col-lg-6 > h1 {
+  color: white;
+}
+/* Nav Bar*/
+.nav-link {
+  margin-right: 40px;
+}
+
+#iphone6 {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+  top: 25%;
+}
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+#testimonials h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: monospace;
+}
+p {
+  color: #8f8f8f;
+}
+.icon {
+  color: #ff4c68;
+  margin-bottom: 1rem;
+  opacity: 0.85;
+}
+.icon:hover {
+  color: #ff4c68;
+  margin-bottom: 1rem;
+  opacity: 1;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*Pricing Section*/
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 980px) {
+  #iphone6 {
+    display: none;
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+/*Pricing*/
+#cta {
+  background-color: #ff4c68;
+  padding: 5% 15%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+#cta > h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+  padding: 3rem;
+}
+.myButton {
+  margin: 0.8rem;
+}
+#footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 8% 15%;
+}
+.icons {
+  margin: 1rem;
+}
+
+.myIcons {
+  padding: 0.8rem;
+}
